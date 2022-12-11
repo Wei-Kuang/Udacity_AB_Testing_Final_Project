@@ -23,11 +23,20 @@ Indicate what fraction of traffic you would divert to this experiment and, given
 
 
 ## 4. Sanity Checks
+For each of your invariant metrics, give the 95% confidence interval for the value you expect to observe, the actual observed value, and whether the metric passes your sanity check. 
 
 ## 5. Effect Size Tests
+For each of your evaluation metrics, give a 95% confidence interval around the difference between the experiment and control groups. Indicate whether each metric is statistically and practically significant.
 
 ## 6. Sign Tests
+For each of your evaluation metrics, do a sign test using the day-by-day data, and report the p-value of the sign test and whether the result is statistically significant.
 
 ## 7. Results Summary
+State whether you used the Bonferroni correction, and explain why or why not. If there are any discrepancies between the effect size hypothesis tests and the sign tests, describe the discrepancy and why you think it arose.
 
 ## 8. Recommendation
+Make a recommendation and briefly describe your reasoning.
+
+
+## 9. Follow-Up Experiment
+Give a high-level description of the follow up experiment you would run, what your hypothesis would be, what metrics you would want to measure, what your unit of diversion would be, and your reasoning for these choices.

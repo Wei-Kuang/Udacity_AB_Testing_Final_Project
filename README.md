@@ -8,7 +8,7 @@ https://docs.google.com/document/u/1/d/1aCquhIqsUApgsxQ8-SQBAigFDcfWVVohLEXcV6jW
 <img src="user_funnel_journey.jpg" height="700">
 
 ### Metirc List
-<img src="Metric_List.jpg" height="400">
+<img src="Metric_List.jpg" height="350">
 
 ## 1. Metric Choice
 List which metrics you will use as invariant metrics and evaluation metrics here. For each metric, explain both why you did or did not use it as an invariant metric and why you did or did not use it as an evaluation metric. Also, state what results you will look for in your evaluation metrics in order to launch the experiment.

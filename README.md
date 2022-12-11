@@ -4,3 +4,20 @@ Udacity website has a new design and wants to improve user’s experience. This 
 
 ## Final Project Instructions
 https://docs.google.com/document/u/1/d/1aCquhIqsUApgsxQ8-SQBAigFDcfWVVohLEXcV6jWbdI/pub
+
+
+## Metric Choice
+
+## Variability
+
+## Sizing
+
+## Sanity Checks
+
+## Effect Size Tests
+
+## Sign Tests
+
+## Results Summary
+
+## Recommendation

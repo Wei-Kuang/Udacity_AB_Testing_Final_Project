@@ -6,18 +6,18 @@ Udacity website has a new design and wants to improve user’s experience. This 
 https://docs.google.com/document/u/1/d/1aCquhIqsUApgsxQ8-SQBAigFDcfWVVohLEXcV6jWbdI/pub
 
 
-## Metric Choice
+## 1 Metric Choice
 
-## Variability
+## 2 Variability
 
-## Sizing
+## 3 Sizing
 
-## Sanity Checks
+## 4 Sanity Checks
 
-## Effect Size Tests
+## 5 Effect Size Tests
 
-## Sign Tests
+## 6 Sign Tests
 
-## Results Summary
+## 7 Results Summary
 
-## Recommendation
+## 8 Recommendation

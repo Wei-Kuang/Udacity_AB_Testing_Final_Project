@@ -16,7 +16,11 @@ List the standard deviation of each of your evaluation metrics. For each of your
 
 ## 3. Sizing
 ### Number of Samples vs. Power
+Indicate whether you will use the Bonferroni correction during your analysis phase, and give the number of pageviews you will need to power you experiment appropriately. 
+
 ### Duration vs. Exposure
+Indicate what fraction of traffic you would divert to this experiment and, given this, how many days you would need to run the experiment. Give your reasoning for the fraction you chose to divert. How risky do you think this experiment would be for Udacity?
+
 
 ## 4. Sanity Checks
 

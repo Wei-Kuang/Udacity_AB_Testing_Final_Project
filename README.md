@@ -9,7 +9,7 @@ https://docs.google.com/document/u/1/d/1aCquhIqsUApgsxQ8-SQBAigFDcfWVVohLEXcV6jW
 
 
 # Hypothesis and expectation of this new feature
-The hypothesis was that this might set clearer expectations for students upfront, thus reducing the number of frustrated students who left the free trial because they didn't have enough time—without significantly reducing the number of students to continue past the free trial and eventually complete the course. If this hypothesis held true, Udacity could improve the overall student experience and improve coaches' capacity to support students who are likely to complete the course.
+The hypothesis was that this might set clearer expectations for students upfront, thus reducing the number of frustrated students who left the free trial because they didn't have enough time—without significantly reducing the number of students to continue past the free trial and eventually complete the course. **If this hypothesis held true, Udacity could improve the overall student experience and improve coaches' capacity to support students who are likely to complete the course.**
 
 
 The unit of diversion is a cookie, although if the student enrolls in the free trial, they are tracked by user-id from that point forward. The same user-id cannot enroll in the free trial twice. For users that do not enroll, their user-id is not tracked in the experiment, even if they were signed in when they visited the course overview page.
@@ -34,11 +34,14 @@ List which metrics you will use as invariant metrics and evaluation metrics here
 
 #### Evaluation Metrics 
 *1. The key is to find the steps **after the new feature**. Thus, metrics which are related to "enrollment" or "payment" can be evaluation metric.*
-*2. The desgin of this new feature is to divert less-committed people to the Free course, and thus we expect that the number of users after "clicking the free trial" should go down in the experiment, compared to the control group*
 
-* **Gross Conversion (=enrollment/click):** In the experiemnt, this metric should go down, because "enrollment" occurs after this new feautre.
-* **Retention (=payment/enrollment):** 
-* **Net conversion (=payment/click):**
+
+* **Gross Conversion (=enrollment/click):** "enrollment" occurs after this new feautre, and "clikc" (the denominator) is invariant, so this metric will move in the experiment and can be used as an evaluation metric. The desgin of this new feature is to divert less-committed people to the Free course, and thus we expect that the number of users in "enrollment" should go down in the experiment, compared to the control group*
+
+* **Net conversion (=payment/click):** "payment" occurs after this new feautre, and "clikc" (the denominator) is invariant, so this metric can be used as evaluation metric. We expect this metirc 
+
+* **Retention (=payment/enrollment):** Both of "payment" and "entrollment" occurs after this new feautre
+
 
 
 #### Bad Metrics

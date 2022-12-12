@@ -33,8 +33,6 @@ List which metrics you will use as invariant metrics and evaluation metrics here
 
 
 #### Evaluation Metrics 
-<span style="color:red"> This is Red Bold </span>
-
 *The key is to identify the steps **after the new feature**. Thus, metrics which are related to "enrollment" or "payment" can be evaluation metric.*
 
 

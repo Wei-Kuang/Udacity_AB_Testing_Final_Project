@@ -15,7 +15,7 @@ List which metrics you will use as invariant metrics and evaluation metrics here
 
 ### Invariant Metrics 
 *	Number of cookies
-> fdfdfd
+>> fdfdfd
 > 
 *	Number of clicks
 *	

@@ -18,7 +18,7 @@ List which metrics you will use as invariant metrics and evaluation metrics here
 
 * **Number of clicks (start free trial bottom):** This feature is prior to the new change. Thus, this metric should not change between control and experiment groups. 
 	
-* Click-through-probability
+* **Click-through-probability(clicks / course pageviews):**  Same reason. The click and course pageview are prior to the new feature, so there should be no change in this metric between the control and experiment groups. 
 
 
 ## 2. Variability

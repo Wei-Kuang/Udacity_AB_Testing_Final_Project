@@ -14,9 +14,9 @@ https://docs.google.com/document/u/1/d/1aCquhIqsUApgsxQ8-SQBAigFDcfWVVohLEXcV6jW
 List which metrics you will use as invariant metrics and evaluation metrics here. For each metric, explain both why you did or did not use it as an invariant metric and why you did or did not use it as an evaluation metric. Also, state what results you will look for in your evaluation metrics in order to launch the experiment.
 
 ### Invariant Metrics 
-* Number of cookies
+* Number of cookies (course pageviews)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fdfdfd
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The course overview page is prior to the new change. Thus, this metric should be the same between control and experiment groups. 
 
 * Number of clicks
 	

@@ -44,7 +44,7 @@ List which metrics you will use as invariant metrics and evaluation metrics here
 
 
 #### Bad Metrics
-* **Number of user-ids (enrollment):** In the experiment, enrollment stage is after the new feature, but enrollment (cout) may not be a good evaluation metric. The reason is that it's not good to use a pure count metric as the evaluation metric in the funnel process analysis. In the funnel process, the number of the counts for each step is conditioned to previous step. Thus, it's good to use rate or probabliy which is normalized, instead of the pure counting number.
+* **Number of user-ids (enrollment):** In the experiment, enrollment stage is after the new feature, but enrollment (cout) may not be a good evaluation metric. The reason is that it's not good to use a pure count metric as the evaluation metric in the funnel process analysis. In the funnel process, the number of the counts for each step is conditioned to previous step. Thus, it's good to use rate or probabliy which is normalized, instead of a counting number.
 
 
 

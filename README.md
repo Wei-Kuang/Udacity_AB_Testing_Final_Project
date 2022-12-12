@@ -24,28 +24,27 @@ List which metrics you will use as invariant metrics and evaluation metrics here
 #### Invariant Metrics 
 *The key is to find the steps **before the new feature**.
 
-* **Number of cookies (pageviews) :** The course overview page is prior to the new change. Thus, this metric should be the same between control and experiment groups. 
+* **Number of cookies (pageviews) :** The course overview page is prior to the new feature. Thus, this metric should be the same between control and experiment groups. 
 
-* **Number of clicks (start free trial bottom):** This feature is prior to the new change. Thus, this metric should not change between control and experiment groups. 
+* **Number of clicks (start free trial bottom):** This metric is prior to the new feature. Thus, this metric should not change between control and experiment groups. 
 
 * **Click-through-probability(=clicks/pageviews):**  Same reason. The click and course pageview are prior to the new feature, so there should be no change in this metric between the control and experiment groups. 
 
 
 
 #### Evaluation Metrics 
-*1. The key is to find the steps **after the new feature**. Thus, metrics which are related to "enrollment" or "payment" can be evaluation metric.*
+*The key is to identify the steps **after the new feature**. Thus, metrics which are related to "enrollment" or "payment" can be evaluation metric.*
 
 
-* **Gross Conversion (=enrollment/click):** "enrollment" occurs after this new feautre, and "clikc" (the denominator) is invariant, so this metric will move in the experiment and can be used as an evaluation metric. The desgin of this new feature is to divert less-committed people to the Free course, and thus we expect that the number of users in "enrollment" should go down in the experiment, compared to the control group*
+* **Gross Conversion (=enrollment/click):** "enrollment" occurs after the new feautre, and "clikc" (the denominator) is invariant, so this metric is movable and can be used as an evaluation metric. We expect that gross conversion to **go down** in the experiment, because *the desgin of this new feature is to divert less-committed people to the free course, instead of enrollment in the free trial. This causes less people to be in the "enrollment".
 
-* **Net conversion (=payment/click):** "payment" occurs after this new feautre, and "clikc" (the denominator) is invariant, so this metric can be used as evaluation metric. We expect this metirc 
+* **Net conversion (=payment/click):** "payment" occurs after this new feautre, and "clikc" (the denominator) is invariant, so this metricis is movable and can be used as an evaluation metric. We expect the net conversion to be **higher** in the experiment, because the new feature is supposed to select more committed people who are likely to stay in the free trail and make payment at the end. 
 
-* **Retention (=payment/enrollment):** Both of "payment" and "entrollment" occurs after this new feautre
-
+* **Retention (=payment/enrollment):** Both of "payment" and "entrollment" occur after this new feautre. We expect the retention rate to be **higher** in the experiment, because the new feature is supposed to select more committed people who are likely to make paymnet. 
 
 
 #### Bad Metrics
-* **Number of user-ids (enrollment):** 
+* **Number of user-ids (enrollment):** In the experiment, enrollment stage is after the new feature, but enrollment (cout) may not be a good evaluation metric. The reason is that it's not good to use a pure count metric as the evaluation metric in the funnel process analysis. In the funnel process, the number of the counts for each step is conditioned to previous step. Thus, it's good to use rate or probabliy which is normalized, instead of the pure counting number.
 
 
 

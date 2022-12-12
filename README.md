@@ -5,7 +5,7 @@ Udacity website has a new design and wants to improve user’s experience. This 
 # Final Project Instructions
 https://docs.google.com/document/u/1/d/1aCquhIqsUApgsxQ8-SQBAigFDcfWVVohLEXcV6jWbdI/pub
 
-<img src="user_funnel_journey.jpg" height="700">
+<img src="user_funnel_journey.jpg" height="700"> 
 
 ### Metirc List
 <img src="Metric_List.jpg" height="350">

@@ -22,11 +22,15 @@ The unit of diversion is a cookie, although if the student enrolls in the free t
 List which metrics you will use as invariant metrics and evaluation metrics here. For each metric, explain both why you did or did not use it as an invariant metric and why you did or did not use it as an evaluation metric. Also, state what results you will look for in your evaluation metrics in order to launch the experiment.
 
 #### Invariant Metrics 
+*The key is to find the steps **before the new feature**.
+
 * **Number of cookies (pageviews) :** The course overview page is prior to the new change. Thus, this metric should be the same between control and experiment groups. 
 
 * **Number of clicks (start free trial bottom):** This feature is prior to the new change. Thus, this metric should not change between control and experiment groups. 
 
 * **Click-through-probability(=clicks/pageviews):**  Same reason. The click and course pageview are prior to the new feature, so there should be no change in this metric between the control and experiment groups. 
+
+
 
 #### Evaluation Metrics 
 *The key is to find the steps **after the new feature**. Thus, metrics related to "enrollment" or "payment" can be the candidates for evaluation metric.*
@@ -35,8 +39,11 @@ List which metrics you will use as invariant metrics and evaluation metrics here
 * **Retention (=payment/enrollment):**
 * **Net conversion (=payment/click):**
 
+
 #### Bad Metrics
 * **Number of user-ids (enrollment):** 
+
+
 
 
 ## 2. Variability

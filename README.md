@@ -33,10 +33,10 @@ List which metrics you will use as invariant metrics and evaluation metrics here
 
 
 #### Evaluation Metrics 
-*The key is to find the steps **after the new feature**. Thus, metrics related to "enrollment" or "payment" can be the candidates for evaluation metric.*
+*1. The key is to find the steps **after the new feature**. Thus, metrics which are related to "enrollment" or "payment" can be evaluation metric.*
 
-* **Gross Conversion (=enrollment/click):** In the experiemnt, this metric should go down, because "enrollment" occur after this new feautre.
-* **Retention (=payment/enrollment):**
+* **Gross Conversion (=enrollment/click):** In the experiemnt, this metric should go down, because "enrollment" occurs after this new feautre.
+* **Retention (=payment/enrollment):** 
 * **Net conversion (=payment/click):**
 
 

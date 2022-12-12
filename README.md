@@ -34,6 +34,7 @@ List which metrics you will use as invariant metrics and evaluation metrics here
 
 #### Evaluation Metrics 
 *1. The key is to find the steps **after the new feature**. Thus, metrics which are related to "enrollment" or "payment" can be evaluation metric.*
+*2. The desgin of this new feature is to divert less-committed people to the Free course, and thus we expect that the number of users after "clicking the free trial" should go down in the experiment, compared to the control group*
 
 * **Gross Conversion (=enrollment/click):** In the experiemnt, this metric should go down, because "enrollment" occurs after this new feautre.
 * **Retention (=payment/enrollment):** 

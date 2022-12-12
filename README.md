@@ -29,7 +29,7 @@ List which metrics you will use as invariant metrics and evaluation metrics here
 * **Click-through-probability(=clicks/pageviews):**  Same reason. The click and course pageview are prior to the new feature, so there should be no change in this metric between the control and experiment groups. 
 
 #### Evaluation Metrics 
-A key is to find the steps after the new feature. Thus, metrics related to "enrollment" or "payment" can be the candidates for evaluation metric.
+*The key is to find the steps after the new feature. Thus, metrics related to "enrollment" or "payment" can be the candidates for evaluation metric.*
 
 * **Gross Conversion (=enrollment/click):** In the experiemnt, this metric should go down, because "enrollment" occur after this new feautre.
 * **Retention (=payment/enrollment):**

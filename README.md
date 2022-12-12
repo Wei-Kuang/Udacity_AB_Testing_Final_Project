@@ -7,18 +7,31 @@ https://docs.google.com/document/u/1/d/1aCquhIqsUApgsxQ8-SQBAigFDcfWVVohLEXcV6jW
 
 <img src="user_funnel_journey.jpg" height="700"> 
 
+
+# Hypothesis and expectation of this new feature
+
+
+
 ### Metirc List
 <img src="Metric_List.jpg" height="350">
 
 ## 1. Metric Choice
 List which metrics you will use as invariant metrics and evaluation metrics here. For each metric, explain both why you did or did not use it as an invariant metric and why you did or did not use it as an evaluation metric. Also, state what results you will look for in your evaluation metrics in order to launch the experiment.
 
-	#### Invariant Metrics 
-	* **Number of cookies (pageviews) :** The course overview page is prior to the new change. Thus, this metric should be the same between control and experiment groups. 
+#### Invariant Metrics 
+* **Number of cookies (pageviews) :** The course overview page is prior to the new change. Thus, this metric should be the same between control and experiment groups. 
 
-	* **Number of clicks (start free trial bottom):** This feature is prior to the new change. Thus, this metric should not change between control and experiment groups. 
+* **Number of clicks (start free trial bottom):** This feature is prior to the new change. Thus, this metric should not change between control and experiment groups. 
 
-	* **Click-through-probability(=clicks/pageviews):**  Same reason. The click and course pageview are prior to the new feature, so there should be no change in this metric between the control and experiment groups. 
+* **Click-through-probability(=clicks/pageviews):**  Same reason. The click and course pageview are prior to the new feature, so there should be no change in this metric between the control and experiment groups. 
+
+#### Evaluation Metrics 
+* **Gross Conversion (=enrollment/click):** 
+* **Retention (=payment/enrollment):**
+* **Net conversion (=payment/click):**
+
+#### Bad Metrics
+* **Number of user-ids (enrollment):** 
 
 
 ## 2. Variability

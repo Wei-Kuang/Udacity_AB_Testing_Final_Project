@@ -91,6 +91,19 @@ I would like to collect empirical estimates of variability for (1) **Gross Conve
 5. Based on the required page views, I will select the maximum page views among evaluation metrics.
 
 
+**Question:** Which evaluation metrics did you choose?
+
+> **ANS:** (1) gross conversion and (2) net conversion
+
+**Question:** Will you use Bonferroni Correction? 
+
+> **ANS:** These evaluation metrics are highly correlated, so Bonferroni would be too conservative.
+
+**Question:** How many page view that we need? 
+
+> **ANS** 685,325
+
+
 
 ## 4. Sanity Checks
 For each of your invariant metrics, give the 95% confidence interval for the value you expect to observe, the actual observed value, and whether the metric passes your sanity check. 

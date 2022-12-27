@@ -1,5 +1,5 @@
 # Udacity AB Testing Final Project
-Udacity website has a new design and wants to improve user’s experience. This project aims at evaluating whether this new design can be effective in production. The project will go through experiment design and analysis to collect statistical evidences to make a reasonable decision to launch this new design or not. 
+Udacity website has a new design and wants to improve user experience. This project aims at evaluating whether this new design can be effective in production. The project will go through experiment design and analysis to collect statistical evidences to make a reasonable decision to launch this new design or not. 
 
 
 # Final Project Instructions
@@ -9,12 +9,12 @@ https://docs.google.com/document/u/1/d/1aCquhIqsUApgsxQ8-SQBAigFDcfWVVohLEXcV6jW
 
 
 # Hypothesis and expectation of this new feature
-The hypothesis was that this might set clearer expectations for students upfront, thus reducing the number of frustrated students who left the free trial because they didn't have enough time—without significantly reducing the number of students to continue past the free trial and eventually complete the course. **If this hypothesis held true, Udacity could improve the overall student experience and improve coaches' capacity to support students who are likely to complete the course.**
+The hypothesis was that this might set clearer expectations for students upfront, thus reducing the number of frustrated students who left the free trial because they didn't have enough time without significantly reducing the number of students to continue past the free trial and eventually complete the course. **If this hypothesis held true, Udacity could improve the overall student experience and improve coaches' capacity to support students who are likely to complete the course.**
 
 
 The unit of diversion is a cookie, although if the student enrolls in the free trial, they are tracked by user-id from that point forward. The same user-id cannot enroll in the free trial twice. For users that do not enroll, their user-id is not tracked in the experiment, even if they were signed in when they visited the course overview page.
 
-# Metirc List
+# Metric List
 <img src="Metric_List.jpg" height="350">
 
 
@@ -24,11 +24,11 @@ List which metrics you will use as invariant metrics and evaluation metrics here
 #### Invariant Metrics 
 *The key is to find the steps **before the new feature**.
 
-* **Number of cookies (pageviews) :** The course overview page is prior to the new feature. Thus, this metric should be the same between control and experiment groups. 
+* **Number of cookies (page views) :** The course overview page is prior to the new feature. Thus, this metric should be the same between control and experiment groups. 
 
 * **Number of clicks (start free trial bottom):** This metric is prior to the new feature. Thus, this metric should not change between control and experiment groups. 
 
-* **Click-through-probability(=clicks/pageviews):**  Same reason. The click and course pageview are prior to the new feature, so there should be no change in this metric between the control and experiment groups. 
+* **Click-through-probability(=clicks/page views):**  Same reason. The click and course page view are prior to the new feature, so there should be no change in this metric between the control and experiment groups. 
 
 
 
@@ -36,15 +36,15 @@ List which metrics you will use as invariant metrics and evaluation metrics here
 *The key is to identify the steps **after the new feature**. Thus, metrics which are related to "enrollment" or "payment" can be evaluation metric.*
 
 
-* **Gross Conversion (=enrollment/click):** "enrollment" occurs after the new feautre, and "clikc" (the denominator) is invariant, so this metric is movable and can be used as an evaluation metric. We expect that gross conversion to **go down** in the experiment, because *the desgin of this new feature is to divert less-committed people to the free course, instead of enrollment in the free trial. This causes less people to be in the "enrollment".
+* **Gross Conversion (=enrollment/click):** "enrollment" occurs after the new feature, and "click" (the denominator) is invariant, so this metric is movable and can be used as an evaluation metric. We expect that gross conversion to **go down** in the experiment, because *the design of this new feature is to divert less-committed people to the free course, instead of enrollment in the free trial. This causes less people to be in the "enrollment".
 
-* **Net conversion (=payment/click):** "payment" occurs after this new feautre, and "clikc" (the denominator) is invariant, so this metricis is movable and can be used as an evaluation metric. We expect the net conversion to be **higher** in the experiment, because the new feature is supposed to select more committed people who are likely to stay in the free trail and make payment at the end. 
+* **Net conversion (=payment/click):** "payment" occurs after this new feature, and "click" (the denominator) is invariant, so this metric is movable and can be used as an evaluation metric. We expect the net conversion to be **higher** in the experiment, because the new feature is supposed to select more committed people who are likely to stay in the free trail and make payment at the end. 
 
-* **Retention (=payment/enrollment):** Both of "payment" and "entrollment" occur after this new feautre. We expect the retention rate to be **higher** in the experiment, because the new feature is supposed to select more committed people who are likely to make paymnet. 
+* **Retention (=payment/enrollment):** Both of "payment" and "enrollment" occur after this new feature. We expect the retention rate to be **higher** in the experiment, because the new feature is supposed to select more committed people who are likely to make payment. 
 
 
 #### Bad Metrics
-* **Number of user-ids (enrollment):** In the experiment, enrollment stage is after the new feature, but enrollment (cout) may not be a good evaluation metric. The reason is that it's not good to use a pure count metric as the evaluation metric in the funnel process analysis. In the funnel process, the number of the counts for each step is conditioned to previous step. Thus, it's good to use rate or probabliy which is normalized, instead of a counting number.
+* **Number of user-ids (enrollment):** In the experiment, enrollment stage is after the new feature, but enrollment (count) may not be a good evaluation metric. The reason is that it's not good to use a pure count metric as the evaluation metric in the funnel process analysis. In the funnel process, the number of the counts for each step is conditioned to previous step. Thus, it's good to use rate or probability which is normalized, instead of a counting number.
 
 
 
@@ -55,7 +55,7 @@ List the standard deviation of each of your evaluation metrics. For each of your
 
 ## 3. Sizing
 ### Number of Samples vs. Power
-Indicate whether you will use the Bonferroni correction during your analysis phase, and give the number of pageviews you will need to power you experiment appropriately. 
+Indicate whether you will use the Bonferroni correction during your analysis phase, and give the number of page views you will need to power you experiment appropriately. 
 
 ### Duration vs. Exposure
 Indicate what fraction of traffic you would divert to this experiment and, given this, how many days you would need to run the experiment. Give your reasoning for the fraction you chose to divert. How risky do you think this experiment would be for Udacity?

@@ -7,8 +7,6 @@ Linke to the Final Project Description - https://docs.google.com/document/u/1/d/
 
 <img src="user_funnel_journey.jpg" height="700"> 
 
-<img src="Metric_and_user_funnel.jpg" height="350"> 
-
 # Hypothesis and expectation of this new feature
 The hypothesis was that this might set clearer expectations for students upfront, thus reducing the number of frustrated students who left the free trial because they didn't have enough time without significantly reducing the number of students to continue past the free trial and eventually complete the course. **If this hypothesis held true, Udacity could improve the overall student experience and improve coaches' capacity to support students who are likely to complete the course.**
 
@@ -18,6 +16,7 @@ The unit of diversion is a cookie, although if the student enrolls in the free t
 # Metric List
 <img src="Metric_List.jpg" height="350">
 
+<img src="Metric_and_user_funnel.jpg" height="350"> 
 
 ## 1. Metric Choice
 List which metrics you will use as invariant metrics and evaluation metrics here. For each metric, explain both why you did or did not use it as an invariant metric and why you did or did not use it as an evaluation metric. Also, state what results you will look for in your evaluation metrics in order to launch the experiment.

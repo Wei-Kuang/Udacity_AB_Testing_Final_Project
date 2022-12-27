@@ -78,11 +78,18 @@ I would like to collect empirical estimates of variability for (1) **Gross Conve
 >>
 
 ## 3. Sizing
-### Number of Samples vs. Power
-Indicate whether you will use the Bonferroni correction during your analysis phase, and give the number of page views you will need to power you experiment appropriately. 
 
-### Duration vs. Exposure
-Indicate what fraction of traffic you would divert to this experiment and, given this, how many days you would need to run the experiment. Give your reasoning for the fraction you chose to divert. How risky do you think this experiment would be for Udacity?
+#### My thinking process:  
+1. I will compute the required sample size for each evaluation metric, based on the (1) baseline data, (2) minimally important difference (dmin) , (3) alpha = 0.05, and (4) beta=0.2.
+
+2. On-line calculator will be a great tool for this task: https://www.evanmiller.org/ab-testing/sample-size.html
+
+3. Convert the required "sample size" into required "page views" for both control and experiment groups.
+
+4. Then, check if our system can reach the sample size in a short time (usually ~ 30 days). If a metric need more than 30 days to collect, we might need to drop it or re-design the experiment.
+
+5. Based on the required page views, I will select the maximum page views among evaluation metrics.
+
 
 
 ## 4. Sanity Checks

@@ -61,7 +61,7 @@ The estimated variability is based on the page view = 5000. If the SE is large, 
 |Retention       |0.0549|
 |Net Conversion  |0.0156|
 
-> **Note:** Retention's SE is relatively large. We will take a look if we can collect enough data to overcome this large variability.
+> **Note:** Retention's SE is relatively large. In section "3. Sizing", We will check if we can collect enough data in order to have enought power to evaluate Retention.
 
 
 **Question:** Do you expect the analytic estimates to be accurate? That is, for which metrics, if any, would you want to collect an empirical estimate of the variability if you had time?

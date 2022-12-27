@@ -100,18 +100,29 @@ I would like to collect empirical estimates of variability for (1) **Gross Conve
 * Based on the ratio, there will be 3,200 clicks among 40000 page views.
 * Now, we need to have [2*25835 = 51,670] clicks, so  we need  (40000 * 51670) / (3200)  = 645,875 page views.
 
+#### Size - Retention
+* dmin = 0.01
+* RT = (n of payment) / n_enroll = Probability of payment, given enroll = 0.530000
+* Required Sample Size in each group, N=39115 (using Online-calculator).
+* Two groups of required enrollments = 2 * 39115 = 78230
+* Based on the ratio, there will be 660 enrollments given 40000 page views.
+* Thus, to reach 78,230 enrollments, then we need 4,741,212 page view
 
+#### Size - Net Conversion
+* dmin = 0.0075
+* NC =  (n of payment) / n_click = Probability of payment, given click = 0.109313
+* Required Sample Size in each group, N=27,413 (using Online-calculator).
+* Two groups of required n-click = 2 * 27413 = 54,826
+* Based on the ratio, there will be 3,200 clicks given 40000 page views.
+* Now, we need to have 2 * 27413 = 54,826 clicks, we need 685,325 page views.
 
 **Question:** Which evaluation metrics did you choose?
-
 > **ANS:** (1) gross conversion and (2) net conversion
 
 **Question:** Will you use Bonferroni Correction? 
-
 > **ANS:** These evaluation metrics are highly correlated, so Bonferroni would be too conservative.
 
 **Question:** How many page view that we need? 
-
 > **ANS** 685,325
 
 

@@ -91,6 +91,17 @@ I would like to collect empirical estimates of variability for (1) **Gross Conve
 5. Based on the required page views, I will select the maximum page views among evaluation metrics.
 
 
+#### Size  -  Gross Conversion 
+* dmin = 0.01
+* GC = n_enroll / n_click  = Probability of enrolling, given click  = 0.206250 (baseline)
+* Required Sample Size in each group, N=25835 (using Online-calculator).
+* Required n-click (two groups) = 2 * 25835 = 51670
+* Then, we want to know how many page view can reach the number of required clicks.
+* Based on the ratio, there will be 3,200 clicks among 40000 page views.
+* Now, we need to have [2*25835 = 51,670] clicks, so  we need  (40000 * 51670) / (3200)  = 645,875 page views.
+
+
+
 **Question:** Which evaluation metrics did you choose?
 
 > **ANS:** (1) gross conversion and (2) net conversion

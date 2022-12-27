@@ -52,7 +52,8 @@ List which metrics you will use as invariant metrics and evaluation metrics here
 ## 2. Variability
 List the standard deviation of each of your evaluation metrics. For each of your evaluation metrics, indicate whether you think the analytic estimate would be comparable to the the empirical variability, or whether you expect them to be different (in which case it might be worth doing an empirical estimate if there is time). Briefly give your reasoning in each case.
 
-##############################
+>>
+
 **Summary of Variability**
 
 The estimated variability is based on the page view = 5000. This will give us an ideal which metric might be problematic.
@@ -65,6 +66,7 @@ The estimated variability is based on the page view = 5000. This will give us an
 
 > **Note:** Retention's SE is relatively large! We will take a look if we can collect enough data to overcome this large variability.
 
+>>
 
 ## 3. Sizing
 ### Number of Samples vs. Power

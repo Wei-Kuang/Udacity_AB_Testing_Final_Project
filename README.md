@@ -241,4 +241,4 @@ For each of your evaluation metrics, do a sign test using the day-by-day data, a
 Give a high-level description of the follow up experiment you would run, what your hypothesis would be, what metrics you would want to measure, what your unit of diversion would be, and your reasoning for these choices.
 
 * This is a good read: https://zacks.one/udacity-a-b-testing-by-google/#Sign-Test. 
-> The author suggested two experiments to improve the early cancellation.
+* The author suggested two experiments to improve the early cancellation.

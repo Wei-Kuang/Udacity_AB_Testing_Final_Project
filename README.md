@@ -129,13 +129,28 @@ I would like to collect empirical estimates of variability for (1) **Gross Conve
 > Note: Retention need 119 days (17 weeks =~ 4 months) to obtain wanted sample size, even if we use 100% of the traffic. This is too long for a on-line experiment. I will drop "Retention" from the list of evaluation metrics.
 
 **Question:** Which evaluation metrics did you choose?
+
 > **ANS:** (1) gross conversion and (2) net conversion
 
+
 **Question:** Will you use Bonferroni Correction? 
+
 > **ANS:** These evaluation metrics are highly correlated, so Bonferroni would be too conservative.
 
+
+**Question:** Is the change risky enough that you wouldn't want to run on all traffic?
+
+> **ANS:** The feature is to add additional question to ask users about the commitment time and then it diverts users into different processes. I think this new feature is not very risky, because this feature just adds an additional branching of the process, instead of changing an entire new user funnel process. 
+
+
+
+**Question:** What percentage of Udacity's traffic would you divert to this experiment (assuming there were no other experiments you wanted to run simultaneously)?
+ 
+> **ANS:** Just to be safe, we can use the 90% of traffic. 
+
 **Question:** How many page view that we need? 
-> **ANS** 685,325
+
+> **ANS** 685,325 which is the maximum required page views among (1) gross conversion and (2) net conversion
 
 
 

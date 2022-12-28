@@ -225,34 +225,34 @@ Hints:
 
 ### Effect Size Test using two tailed test
 **Gross Conversion**
-Observed Difference:  -0.02055
-95% confidence interval on difference:  [-0.02912, -0.01199]
-Check Statistical Significance
+1. Observed Difference:  -0.02055
+2. 95% confidence interval on difference:  [-0.02912, -0.01199]
+3. Check Statistical Significance
 This confidence interval does not includes zero, so the difference is statistically significant.
-Check Practical Significance
+4. Check Practical Significance
 The confidence interval is beyond the minimal practical difference, so it is practically significant.
 
 
 **Net Conversion**
-Observed Difference:  -0.00487
-95% confidence interval on difference:  [-0.0116, 0.00186]
-Check Statistical Significance
+1. Observed Difference:  -0.00487
+2. 95% confidence interval on difference:  [-0.0116, 0.00186]
+3. Check Statistical Significance
 This interval includes zero, so the difference is "NOT" statistically significant.
-Check Practical Significance
+4. Check Practical Significance
 The direction of the observed difference is "Not" expected, so it is not pratically significant.
 
 ### Effect Size Test using Sign test
 **Gross Conversion**
-N_trials:  23
-N_success:  19
-Sing Test (two-sided) P-value:  0.0026
-Test Result: Statistically significant.
+1. N_trials:  23
+2. N_success:  19
+3. Sing Test (two-sided) P-value:  0.0026
+4. Test Result: Statistically significant.
 
 **Net Conversion**
-N_trials:  23
-N_success:  13
-Sing Test (two-sided) P-value:  0.67764
-Test Result: Not statistically significant.
+1. N_trials:  23
+2. N_success:  13
+3. Sing Test (two-sided) P-value:  0.67764
+4. Test Result: Not statistically significant.
 
 
 ## 7. Results Summary

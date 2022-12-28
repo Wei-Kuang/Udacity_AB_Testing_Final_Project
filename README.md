@@ -116,6 +116,18 @@ I would like to collect empirical estimates of variability for (1) **Gross Conve
 * Based on the ratio, there will be 3,200 clicks given 40000 page views.
 * Now, we need to have 2 * 27413 = 54,826 clicks, we need 685,325 page views.
 
+**Summary of Sizing**
+* This is the sample size to reach these wanted statistics parameters: 0.05 alpha (Type I error) and 0.2 Beta (Type II error)
+* With 100% traffic, the site estimated that there will be 40000 page views per day.
+
+|Metrics| Required page view (cookies)| Required days with 50% traffic | Required days with 100% traffic |
+|-|-|-|-|
+|Gross Conversion| 645,875|33 days| 17 days|
+|Retention|4,741,212|238 days|119 days|
+|Net Conversion|685,325|35 days|18 days|
+
+> Note: Retention need 119 days (17 weeks =~ 4 months) to obtain wanted sample size, even if we use 100% of the traffic. This is too long for a on-line experiment. I will drop "Retention" from the list of evaluation metrics.
+
 **Question:** Which evaluation metrics did you choose?
 > **ANS:** (1) gross conversion and (2) net conversion
 

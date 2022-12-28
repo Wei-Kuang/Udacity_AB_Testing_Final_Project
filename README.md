@@ -234,8 +234,11 @@ For each of your evaluation metrics, do a sign test using the day-by-day data, a
 |Net Conversion (payment/click)|-0.00487|+0.0075|[-0.0116, 0.0019]|No |No, because the difference is negative which is not our expectation |No| Not good|
 
 ## 8. Recommendation
-Make a recommendation and briefly describe your reasoning.
+* Since our evaluation metrics did not pass all tests, I will not launch this feature.
 
 
 ## 9. Follow-Up Experiment
 Give a high-level description of the follow up experiment you would run, what your hypothesis would be, what metrics you would want to measure, what your unit of diversion would be, and your reasoning for these choices.
+
+* This is a good read: https://zacks.one/udacity-a-b-testing-by-google/#Sign-Test. 
+> The author suggested two experiments to improve the early cancellation.

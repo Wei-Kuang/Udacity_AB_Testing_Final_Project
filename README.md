@@ -173,6 +173,29 @@ The data for you to analyze is [here](https://docs.google.com/spreadsheets/d/1Mu
 ## 5. Sanity Checks
 For each of your invariant metrics, give the 95% confidence interval for the value you expect to observe, the actual observed value, and whether the metric passes your sanity check. 
 
+Here are my invariant metrics:
+* Number of cookies (simple count)
+* Number of clicks (simple count)
+* Click-through-probability (probability)
+
+
+Hints:
+> If the invariant metric is a **simple count** that should be randomly split between the 2 groups, you can use a **binomial test** as demonstrated in Lesson 5. Otherwise, you will need to construct a **confidence interval** for a **difference in proportions** using a similar strategy as in Lesson 1, then check whether the difference between group values falls within that confidence level.
+
+
+**My thinking process for Sign Test (Binomial test) :** 
+1. If the metric is a simple count, then I will use Sign Test (Binomial test) to perform the sanity check. 
+2. The key is to realize each day is an independent trial and the success can be defined as "Control > Experiment". 
+3. The assumption is that **page views** should be equally and randomly divided into two groups. Therefore, some days Control group may have more page view than Experiment group, and this chance is expected to be 0.5.
+4. Then, the "binomial test" will test if the observed data match our expectation. In this case, if p-value > 0.05, then this is the statistical evidence to support no difference between two groups.
+
+**My thinking process for using Confidence interval (CI) to perform sanity check :** 
+1. The assumption is that the invariant metric should the same between two groups, so the the ratio of Control to Experiment should be close to 1:1 or we can say p = (N of Control)/(total) is about 0.5.
+2. The strategy is to obtain the 95% confidence interval (95%CI) on the expected p, given the expected p=0.5 and observed N.
+3. The decision-making process is that if the observed $ \hat{p} $ is in this 95%CI, then sanity check pass! , because it's acceptable to observe such $ \hat{p} $ at the 95% confidence level.
+
+
+
 ## 6. Effect Size Test and Sign Test
 For each of your evaluation metrics, give a 95% confidence interval around the difference between the experiment and control groups. Indicate whether each metric is statistically and practically significant.
 

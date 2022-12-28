@@ -227,7 +227,11 @@ For each of your evaluation metrics, give a 95% confidence interval around the d
 For each of your evaluation metrics, do a sign test using the day-by-day data, and report the p-value of the sign test and whether the result is statistically significant.
 
 ## 7. Results Summary
-State whether you used the Bonferroni correction, and explain why or why not. If there are any discrepancies between the effect size hypothesis tests and the sign tests, describe the discrepancy and why you think it arose.
+
+|Evaluation Metric| Observed Difference| Minimal Practical Significance (dmin)| 95% Confidence Interval on Diff.|Statistical Significance?| Practical Significance?| Sign Test - Statistical Significance?| Final Comment|
+|---|---|---|---|---|---|---|---|
+|Gross Conversion (enrollment/click)|-0.02055|-0.01|[-0.0291, -0.0120]|Yes |Yes |Yes| All good|
+|Net Conversion (payment/click)|-0.00487|+0.0075|[-0.0116, 0.0019]|No |No, because the difference is negative which is not our expectation |No| Not good|
 
 ## 8. Recommendation
 Make a recommendation and briefly describe your reasoning.

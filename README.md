@@ -182,7 +182,6 @@ Here are my three invariant metrics:
 Hints:
 > If the invariant metric is a **simple count** that should be randomly split between the 2 groups, you can use a **binomial test** as demonstrated in Lesson 5. Otherwise, you will need to construct a **confidence interval** for a **difference in proportions** using a similar strategy as in Lesson 1, then check whether the difference between group values falls within that confidence level.
 
-
 ### Summary of Sanity Check
 
 * Count Metric
@@ -198,10 +197,10 @@ Hints:
 >> 2. The strategy is to obtain the 95% confidence interval (95%CI) on the expected p, given the expected p=0.5 and observed N.
 >> 3. The decision-making process is that if the observed $\hat{p}$ is in this 95%CI, then sanity check pass!, because it's acceptable to observe such $\hat{p}$ at the 95% confidence level.
 
-|Metric |Sign-Test p-value |Observed value |95% confidence interval on expected value| Sanity Check Results|
+|Metric |Sign-Test p-value |Observed values |95% confidence interval on expected value| Sanity Check Results|
 |--|--|--|--|--|
-|Number of cookies (simple count)     |trials:37, Success:22,  p-value:0.324|0.5006 |[0.4988, 0.5012]| Pass|
-|Number of clicks (simple count)      |trials:37, Success:18,  p-value:1.0|0.5005 |[0.4959, 0.5041]| Pass|
+|Number of cookies (simple count)     |p-value 0.324|0.5006 |[0.4988, 0.5012]| Sign Test and 95%CI check are all good|
+|Number of clicks (simple count)      |p-value 1.0  |0.5005 |[0.4959, 0.5041]| Sign Test and 95%CI check are all good|
 
 
 * Probability Metric
@@ -212,9 +211,14 @@ Hints:
 >> 3. The strategy is to obtain the 95% confidence interval on the difference. By using this method, we need to use pooled probability to compute the SE for difference.
 >> 4. The decision-making process is that if this 95%CI of difference includes zero, then sanity check pass!
 
+
+    
 |Metric |Observed difference |95% confidence interval on difference| Sanity Check Results|
 |--|--|--|--|
-|Click-through-probability (probability) |0.000056 |[-0.0012, 0.0014]| Pass|
+|Click-through-probability (probability) |0.000056 |[-0.0012, 0.0014]| Good, because the 95%CI of difference includes zero |
+
+
+
 
 
 ## 6. Effect Size Test and Sign Test

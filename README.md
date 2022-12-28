@@ -223,7 +223,7 @@ Hints:
 
 ## 6. Effect Size Test and Sign Test
 
-### Two tailed test
+### Effect Size Test using two tailed test
 **Gross Conversion**
 Observed Difference:  -0.02055
 95% confidence interval on difference:  [-0.02912, -0.01199]
@@ -241,6 +241,18 @@ This interval includes zero, so the difference is "NOT" statistically significan
 Check Practical Significance
 The direction of the observed difference is "Not" expected, so it is not pratically significant.
 
+### Effect Size Test using Sign test
+**Gross Conversion**
+N_trials:  23
+N_success:  19
+Sing Test (two-sided) P-value:  0.0026
+Test Result: Statistically significant.
+
+**Net Conversion**
+N_trials:  23
+N_success:  13
+Sing Test (two-sided) P-value:  0.67764
+Test Result: Not statistically significant.
 
 
 ## 7. Results Summary

@@ -241,13 +241,13 @@ Hints:
 **Gross Conversion**
 1. N_trials:  23
 2. N_success:  19
-3. Sing Test (two-sided) P-value:  0.0026
+3. Sign Test (two-sided) P-value:  0.0026
 4. Test Result: Statistically significant.
 
 **Net Conversion**
 1. N_trials:  23
 2. N_success:  13
-3. Sing Test (two-sided) P-value:  0.67764
+3. Sign Test (two-sided) P-value:  0.67764
 4. Test Result: Not statistically significant.
 
 

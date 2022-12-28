@@ -227,19 +227,15 @@ Hints:
 **Gross Conversion**
 1. Observed Difference:  -0.02055
 2. 95% confidence interval on difference:  [-0.02912, -0.01199]
-3. Check Statistical Significance
-This confidence interval does not includes zero, so the difference is statistically significant.
-4. Check Practical Significance
-The confidence interval is beyond the minimal practical difference, so it is practically significant.
+3. Check Statistical Significance: This confidence interval does not includes zero, so the difference is statistically significant.
+4. Check Practical Significance: The confidence interval is beyond the minimal practical difference, so it is practically significant.
 
 
 **Net Conversion**
 1. Observed Difference:  -0.00487
 2. 95% confidence interval on difference:  [-0.0116, 0.00186]
-3. Check Statistical Significance
-This interval includes zero, so the difference is "NOT" statistically significant.
-4. Check Practical Significance
-The direction of the observed difference is "Not" expected, so it is not pratically significant.
+3. Check Statistical Significance: This interval includes zero, so the difference is "NOT" statistically significant.
+4. Check Practical Significance: The direction of the observed difference is "Not" expected, so it is not pratically significant.
 
 ### Effect Size Test using Sign test
 **Gross Conversion**

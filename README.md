@@ -192,7 +192,7 @@ Hints:
 **My thinking process for using Confidence interval (CI) to perform sanity check :** 
 1. The assumption is that the invariant metric should the same between two groups, so the the ratio of Control to Experiment should be close to 1:1 or we can say p = (N of Control)/(total) is about 0.5.
 2. The strategy is to obtain the 95% confidence interval (95%CI) on the expected p, given the expected p=0.5 and observed N.
-3. The decision-making process is that if the observed $\hat{p}$ is in this 95%CI, then sanity check pass!, because it's acceptable to observe such $ \hat{p} $ at the 95% confidence level.
+3. The decision-making process is that if the observed $\hat{p}$ is in this 95%CI, then sanity check pass!, because it's acceptable to observe such $\hat{p}$ at the 95% confidence level.
 
 
 

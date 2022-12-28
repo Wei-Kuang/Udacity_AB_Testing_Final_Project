@@ -77,7 +77,7 @@ I would like to collect empirical estimates of variability for (1) **Gross Conve
 |Net Conversion    | payment (user-id)             | click (cookie)                  |
 >>
 
-## 3. Sizing
+## 3. Sizing vs. Duration vs. Exposure
 
 #### My thinking process:  
 1. I will compute the required sample size for each evaluation metric, based on the (1) baseline data, (2) minimally important difference (dmin) , (3) alpha = 0.05, and (4) beta=0.2.
@@ -154,13 +154,28 @@ I would like to collect empirical estimates of variability for (1) **Gross Conve
 
 
 
-## 4. Sanity Checks
+## 4. Data
+The data for you to analyze is [here](https://docs.google.com/spreadsheets/d/1Mu5u9GrybDdska-ljPXyBjTpdZIUev_6i7t4LRDfXM8/edit#gid=0). This data contains the raw information needed to compute the above metrics, broken down day by day. Note that there are two sheets within the spreadsheet - one for the experiment group, and one for the control group.
+
+#### Column definition:
+
+* **Page views:** Number of unique cookies to view the course overview page that day.
+
+* **Clicks:** Number of unique cookies to click the course overview page that day.
+
+* **Enrollments:** Number of user-ids to enroll in the free trial that day.
+
+* **Payments:** Number of user-ids who who enrolled on that day to remain enrolled for 14 days and thus make a payment. (Note that the date for this column is the start date, that is, the date of enrollment, rather than the date of the payment. The payment happened 14 days later. Because of this, the enrollments and payments are tracked for 14 fewer days than the other columns.)
+
+
+
+
+## 5. Sanity Checks
 For each of your invariant metrics, give the 95% confidence interval for the value you expect to observe, the actual observed value, and whether the metric passes your sanity check. 
 
-## 5. Effect Size Tests
+## 6. Effect Size Test and Sign Test
 For each of your evaluation metrics, give a 95% confidence interval around the difference between the experiment and control groups. Indicate whether each metric is statistically and practically significant.
 
-## 6. Sign Tests
 For each of your evaluation metrics, do a sign test using the day-by-day data, and report the p-value of the sign test and whether the result is statistically significant.
 
 ## 7. Results Summary

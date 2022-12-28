@@ -171,12 +171,12 @@ The data for you to analyze is [here](https://docs.google.com/spreadsheets/d/1Mu
 
 
 ## 5. Sanity Checks
-For each of your invariant metrics, give the 95% confidence interval for the value you expect to observe, the actual observed value, and whether the metric passes your sanity check. 
+Use invariant metrics to perform sanity check to make sure that this experiment was well implemented.
 
-Here are my invariant metrics:
-* Number of cookies (simple count)
-* Number of clicks (simple count)
-* Click-through-probability (probability)
+Here are my three invariant metrics:
+1. Number of cookies (simple count)
+2. Number of clicks (simple count)
+3. Click-through-probability (probability)
 
 
 Hints:

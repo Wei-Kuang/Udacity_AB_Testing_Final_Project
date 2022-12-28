@@ -200,8 +200,8 @@ Hints:
 
 |Metric |Sign-Test p-value |Observed value |95% confidence interval on expected value| Sanity Check Results|
 |--|--|--|--|--|
-|Number of cookies (simple count)     |trials:37, Success:22, p-value:0.324|0.5006 |[0.4988, 0.5012]| Pass|
-|Number of clicks (simple count)      |trials:37, Success:18, p-value:1.0|0.5005 |[0.4959, 0.5041]| Pass|
+|Number of cookies (simple count)     |trials:37, Success:22,  p-value:0.324|0.5006 |[0.4988, 0.5012]| Pass|
+|Number of clicks (simple count)      |trials:37, Success:18,  p-value:1.0|0.5005 |[0.4959, 0.5041]| Pass|
 
 
 * Probability Metric

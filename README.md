@@ -222,9 +222,26 @@ Hints:
 
 
 ## 6. Effect Size Test and Sign Test
-For each of your evaluation metrics, give a 95% confidence interval around the difference between the experiment and control groups. Indicate whether each metric is statistically and practically significant.
 
-For each of your evaluation metrics, do a sign test using the day-by-day data, and report the p-value of the sign test and whether the result is statistically significant.
+### Two tailed test
+**Gross Conversion**
+Observed Difference:  -0.02055
+95% confidence interval on difference:  [-0.02912, -0.01199]
+Check Statistical Significance
+This confidence interval does not includes zero, so the difference is statistically significant.
+Check Practical Significance
+The confidence interval is beyond the minimal practical difference, so it is practically significant.
+
+
+**Net Conversion**
+Observed Difference:  -0.00487
+95% confidence interval on difference:  [-0.0116, 0.00186]
+Check Statistical Significance
+This interval includes zero, so the difference is "NOT" statistically significant.
+Check Practical Significance
+The direction of the observed difference is "Not" expected, so it is not pratically significant.
+
+
 
 ## 7. Results Summary
 

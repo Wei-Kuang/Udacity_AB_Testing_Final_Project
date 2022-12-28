@@ -183,17 +183,38 @@ Hints:
 > If the invariant metric is a **simple count** that should be randomly split between the 2 groups, you can use a **binomial test** as demonstrated in Lesson 5. Otherwise, you will need to construct a **confidence interval** for a **difference in proportions** using a similar strategy as in Lesson 1, then check whether the difference between group values falls within that confidence level.
 
 
-**My thinking process for Sign Test (Binomial test) :** 
-1. If the metric is a simple count, then I will use Sign Test (Binomial test) to perform the sanity check. 
-2. The key is to realize each day is an independent trial and the success can be defined as "Control > Experiment". 
-3. The assumption is that **page views** should be equally and randomly divided into two groups. Therefore, some days Control group may have more page view than Experiment group, and this chance is expected to be 0.5.
-4. Then, the "binomial test" will test if the observed data match our expectation. In this case, if p-value > 0.05, then this is the statistical evidence to support no difference between two groups.
+### Summary of Sanity Check
 
-**My thinking process for using Confidence interval (CI) to perform sanity check :** 
-1. The assumption is that the invariant metric should the same between two groups, so the the ratio of Control to Experiment should be close to 1:1 or we can say p = (N of Control)/(total) is about 0.5.
-2. The strategy is to obtain the 95% confidence interval (95%CI) on the expected p, given the expected p=0.5 and observed N.
-3. The decision-making process is that if the observed $\hat{p}$ is in this 95%CI, then sanity check pass!, because it's acceptable to observe such $\hat{p}$ at the 95% confidence level.
+* Count Metric
 
+> **My thinking process for Sign Test (Binomial test) :** 
+>> 1. If the metric is a simple count, then I will use Sign Test (Binomial test) to perform the sanity check. 
+>> 2. The key is to realize each day is an independent trial and the success can be defined as "Control > Experiment". 
+>> 3. The assumption is that **page views** should be equally and randomly divided into two groups. Therefore, some days Control group may have more page view than Experiment group, and this chance is expected to be 0.5.
+>> 4. Then, the "binomial test" will test if the observed data match our expectation. In this case, if p-value > 0.05, then this is the statistical evidence to support no difference between two groups.
+
+> **My thinking process for using Confidence interval (CI) to perform sanity check :** 
+>> 1. The assumption is that the invariant metric should the same between two groups, so the the ratio of Control to Experiment should be close to 1:1 or we can say p = (N of Control)/(total) is about 0.5.
+>> 2. The strategy is to obtain the 95% confidence interval (95%CI) on the expected p, given the expected p=0.5 and observed N.
+>> 3. The decision-making process is that if the observed $\hat{p}$ is in this 95%CI, then sanity check pass!, because it's acceptable to observe such $\hat{p}$ at the 95% confidence level.
+
+|Metric |Sign-Test p-value |Observed value |95% confidence interval on expected value| Sanity Check Results|
+|--|--|--|--|--|
+|Number of cookies (simple count)     |trials:37, Success:22, p-value:0.324|0.5006 |[0.4988, 0.5012]| Pass|
+|Number of clicks (simple count)      |trials:37, Success:18, p-value:1.0|0.5005 |[0.4959, 0.5041]| Pass|
+
+
+* Probability Metric
+
+> **My thinking process for using Confidence interval to perform sanity check :**     
+>> 1. The assumption is that the probability should be the same in two groups.
+>> 2. Thus, we can test if the difference between two groups is close to zero.
+>> 3. The strategy is to obtain the 95% confidence interval on the difference. By using this method, we need to use pooled probability to compute the SE for difference.
+>> 4. The decision-making process is that if this 95%CI of difference includes zero, then sanity check pass!
+
+|Metric |Observed difference |95% confidence interval on difference| Sanity Check Results|
+|--|--|--|--|
+|Click-through-probability (probability) |0.000056 |[-0.0012, 0.0014]| Pass|
 
 
 ## 6. Effect Size Test and Sign Test

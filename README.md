@@ -97,7 +97,7 @@ I would like to collect empirical estimates of variability for (1) **Gross Conve
 * Required Sample Size in each group, N=25835 (using Online-calculator).
 * Required n-click (two groups) = 2 * 25835 = 51670
 * Then, we want to know how many page view can reach the number of required clicks.
-* Based on the ratio, there will be 3,200 clicks among 40000 page views.
+* Based on the ratio, there will be 3,200 clicks among 40,000 page views.
 * Now, we need to have [2*25835 = 51,670] clicks, so  we need  (40000 * 51670) / (3200)  = 645,875 page views.
 
 #### Size - Retention

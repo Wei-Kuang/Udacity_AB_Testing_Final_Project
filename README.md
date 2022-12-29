@@ -265,5 +265,5 @@ Hints:
 ## 9. Follow-Up Experiment
 Give a high-level description of the follow up experiment you would run, what your hypothesis would be, what metrics you would want to measure, what your unit of diversion would be, and your reasoning for these choices.
 
-* This is a good read: https://zacks.one/udacity-a-b-testing-by-google/#Sign-Test. 
+* This is a good read: https://zacks.one/udacity-a-b-testing-by-google/#Follow-Up-Experiment-How-to-Reduce-Early-Cancellations
 * The author suggested two experiments to improve the early cancellation.

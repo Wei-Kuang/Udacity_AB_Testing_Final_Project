@@ -275,7 +275,37 @@ Hints:
 
 
 ## 9. Follow-Up Experiment
-Give a high-level description of the follow up experiment you would run, what your hypothesis would be, what metrics you would want to measure, what your unit of diversion would be, and your reasoning for these choices.
+Give a high-level description of the follow up experiment you would run.
 
-* This is a good read: https://zacks.one/udacity-a-b-testing-by-google/#Follow-Up-Experiment-How-to-Reduce-Early-Cancellations
-* The author suggested two experiments to improve the early cancellation.
+#### This is my idea-1:
+> **Hypothesis:** 
+> * Users don't have enough support to go through assignments or lectures
+
+> **Experiment:**
+> * Create a forum which has clear and specific section for each lecture and assignment, so users can easily have resources easily to go through the course.
+
+> **Expectation and Evaluation Metric**
+> * If the hypothesis is true, then we should see a **higher Net Conversion** in Experiment Group, compared to Control Group.
+
+
+#### This is my idea-2:
+> **Hypothesis:** 
+> * Users just lost the motivation over time.
+
+> **Experiment:**
+> * For users already in the free-trial, when they click "cancel" the enrollment, system will ask the user about the advantage of taking this course. If users still want to cancel it, then they can drop from the free trial.  
+
+> **Expectation and Evaluation Metric**
+> * If the hypothesis is true, then we should see a **higher Net Conversion** in Experiment Group, compared to Control Group.
+
+#### Another good idea based on this post: 
+https://zacks.one/udacity-a-b-testing-by-google/#Follow-Up-Experiment-How-to-Reduce-Early-Cancellations
+
+> **Hypothesis:** 
+> * Users don't have enough pre-requisite courses.
+
+> **Experiment:**
+> * After user click "Start Free Trial", we can ask if users have enough pre-requisite knowledge. If not, users will be diverted to the pre-requisite courses. If yes, then users will enroll in the free trial for 14 days.
+
+> **Expectation and Evaluation Metric**
+> * If the hypothesis is true, then we should see a **lower Gross Conversion** but a **higher Net Conversion** in Experiment Group, compared to Control Group.

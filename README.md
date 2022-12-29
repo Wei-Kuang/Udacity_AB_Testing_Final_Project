@@ -5,13 +5,13 @@ Udacity website has a new design and wants to improve user experience. This proj
 # Project Instructions
 Linke to the Final Project Description - https://docs.google.com/document/u/1/d/1aCquhIqsUApgsxQ8-SQBAigFDcfWVVohLEXcV6jWbdI/pub
 
-<img src="user_funnel_journey.jpg" height="700"> 
-
 # Hypothesis and expectation of this new feature
 The hypothesis was that this might set clearer expectations for students upfront, thus reducing the number of frustrated students who left the free trial because they didn't have enough time without significantly reducing the number of students to continue past the free trial and eventually complete the course. **If this hypothesis held true, Udacity could improve the overall student experience and improve coaches' capacity to support students who are likely to complete the course.**
 
-
 The unit of diversion is a cookie, although if the student enrolls in the free trial, they are tracked by user-id from that point forward. The same user-id cannot enroll in the free trial twice. For users that do not enroll, their user-id is not tracked in the experiment, even if they were signed in when they visited the course overview page.
+<img src="user_funnel_journey.jpg" height="700"> 
+
+
 
 # Metric List
 <img src="Metric_List.jpg" height="350">

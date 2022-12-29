@@ -87,7 +87,7 @@ I would like to collect empirical estimates of variability for (1) **Gross Conve
 |Gross Conversion  | enrollment (user-id)          | click (cookie)                  |
 |Retention         | payment (user-id)             | enroll (user-id)                |
 |Net Conversion    | payment (user-id)             | click (cookie)                  |
->>
+
 
 ## 3. Sizing vs. Duration vs. Exposure
 

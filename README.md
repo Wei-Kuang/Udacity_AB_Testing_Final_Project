@@ -6,7 +6,11 @@ Udacity website has a new design and wants to improve user experience. This proj
 Linke to the Final Project Description - https://docs.google.com/document/u/1/d/1aCquhIqsUApgsxQ8-SQBAigFDcfWVVohLEXcV6jWbdI/pub
 
 # My python code to complete this project
+** Final project Code**
 https://github.com/Wei-Kuang/Udacity_AB_Testing_Final_Project/blob/main/AB_testing_Final_Project_Udacity_v5.ipynb
+
+**Code to compute the sample size**
+https://github.com/Wei-Kuang/Udacity_AB_Testing_Final_Project/blob/main/AB_testing_Final_Project_Udacity_SampleSize_and_Power.ipynb
 
 # Hypothesis and expectation of this experiment
 The hypothesis was that this might set clearer expectations for students upfront, thus reducing the number of frustrated students who left the free trial because they didn't have enough time without significantly reducing the number of students to continue past the free trial and eventually complete the course. **If this hypothesis held true, Udacity could improve the overall student experience and improve coaches' capacity to support students who are likely to complete the course.**

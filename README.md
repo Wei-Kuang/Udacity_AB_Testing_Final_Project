@@ -6,7 +6,7 @@ Udacity website has a new design and wants to improve user experience. This proj
 Linke to the Final Project Description - https://docs.google.com/document/u/1/d/1aCquhIqsUApgsxQ8-SQBAigFDcfWVVohLEXcV6jWbdI/pub
 
 # My python code to complete this project
-** Final project Code**
+**Final project Code**
 https://github.com/Wei-Kuang/Udacity_AB_Testing_Final_Project/blob/main/AB_testing_Final_Project_Udacity_v5.ipynb
 
 **Code to compute the sample size**

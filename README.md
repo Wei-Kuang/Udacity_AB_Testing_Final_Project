@@ -1,5 +1,5 @@
 # Udacity AB Testing Final Project
-<img src="AB_Testing_ProjectPhoto.jpg" height="350"> 
+<img src="AB_Testing_ProjectPhoto.jpg" width="350"> 
 
 
 Udacity website has a new design and wants to improve user experience. This project aims at evaluating whether this new design can be effective in production. The project will go through experiment design and analysis to collect statistical evidences to make a reasonable decision to launch this new design or not. 
